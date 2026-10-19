@@ -14,7 +14,7 @@ let package = Package(
     dependencies: [
         .package(
             url: "https://github.com/united-adstir/adstirsdk-swift-package.git",
-            exact: "2.17.7"
+            exact: "2.17.8"
         ),
         .package(
             url: "https://github.com/Unity-Technologies/Unity-Ads-Swift-Package.git",
@@ -33,8 +33,8 @@ let package = Package(
         ),
         .binaryTarget(
             name: "UnityAdsAdapter",
-            url: "https://dl.ad-stir.com/sdk/spm/2.17.7/AdstirAdsMediationAdapterUnityAds.xcframework.zip",
-            checksum: "c69ab3ba9ccf9508f22d2a313cbe6f21b73c34e2e97dbd6149088470945fefc7"
+            url: "https://dl.ad-stir.com/sdk/spm/2.17.8/AdstirAdsMediationAdapterUnityAds.xcframework.zip",
+            checksum: "713f85beea9ca9d9cb12ba8d8f38f644f5126478abb83e8a089f39a477a108e7"
         ),
     ]
 )
